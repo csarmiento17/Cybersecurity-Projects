@@ -4,15 +4,15 @@
 
 Group Policy enables configuration and settings management of user and computer settings on computers running Windows Server and Windows Client operating systems. In addition to using Group Policy to define configurations for groups of users and client computers, you can also use Group Policy to help manage server computers, by configuring many server-specific operational and security settings
 
-| Policy          | Description                                                            |
-| --------------- | ---------------------------------------------------------------------- |
-| Password Policy | Set a password policy to enforce strong passwords and enhance security |
-|                 |                                                                        |
+| Policy                 | Description                                                            |
+| ---------------------- | ---------------------------------------------------------------------- |
+| Password Policy        | Set a password policy to enforce strong passwords and enhance security |
+| Restrict Control Panel | Set restriction to Organizational Unit to access Control Panel         |
 
 **Key Objectives:**
 
 - Create Group Policy Objects
-- Apply Group Policy settings at the domain level
+- Apply Group Policy settings to Organizational Unit
 
 **Pre-requisites**
 
@@ -31,16 +31,16 @@ Group Policy enables configuration and settings management of user and computer 
 
 Open Group Policy Management. Go to _Start_ -> under _Windows Administrative Tools_ select _Group Policy Management_
 
-![Group Policy Managment](./images/GPO1.png)
+![Group Policy Managment](./images/GPO1.PNG)
 
 Right click the domain and select _Create a GPO in this domain_ option. Type a descriptive name (e.g _Password Policy_)
 
-![Group Policy Managment](./images/GPO2.png)
-![Group Policy Managment](./images/GPO3.png)
+![Group Policy Managment](./images/GPO2.PNG)
+![Group Policy Managment](./images/GPO3.PNG)
 
 Right click the newly created policy and select _Edit_
 
-![Password Policy](./images/PassPolicy1.png)
+![Password Policy](./images/PassPolicy1.PNG)
 
 **Difference of Policies and Preferences**
 
@@ -51,7 +51,7 @@ Right click the newly created policy and select _Edit_
 
 Under _Computer Configuration_, expand the _Policies_ -> _Windows Settings_ -> _Security Settings_ -> _Account Policies_ and select _Password Policy_
 
-![Password Policy2](./images/PassPolicy2.png)
+![Password Policy2](./images/PassPolicy2.PNG)
 
 On the right section of the Group Policy Management Editor window, double click _Minimum password length_ and apply the settings below:
 
@@ -66,8 +66,8 @@ Explore the other password policy settings. I configure the below settings on my
 - Password must meet complexity requirements
 - Maximum password age
 
-![Password Policy3](./images/PassPolicy3.png)
-![Password Policy3](./images/PassPolicy4.png)
+![Password Policy3](./images/PassPolicy3.PNG)
+![Password Policy3](./images/PassPolicy4.PNG)
 
 ## Wallpaper GPO
 
