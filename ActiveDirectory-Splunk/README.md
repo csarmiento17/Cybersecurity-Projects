@@ -26,7 +26,7 @@ Key Objectives:
 
 ### Diagram
 
-![Active Directory Home Lab Diagram](./images/Diagram.PNG)
+![Active Directory Home Lab Diagram](./images/MainDiagram.PNG)
 
 ### Tools
 
