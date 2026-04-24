@@ -2,7 +2,7 @@
 
 ## Summary
 
-Learn how setup passwordless SSH so you can login to a server without prompting for a password on Linux systems. In this example we will use 2 VMs within the same network.
+Learn how set-up passwordless SSH so you can login to a server without prompting for a password on Linux systems. In this example we will use 2 VMs within the same network.
 
 ![VMs](./images/VM.PNG)
 
