@@ -2,6 +2,8 @@
 
 ## Summary
 
+The primary goal of this repository is to provide a step-by-step guide for building a functional ConfigMgr lab. Future tutorials will build upon this environment to cover real-world systems administration and endpoint management tasks.
+
 ## Pre-requisites
 
 - MSSQL Server installation
