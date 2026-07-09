@@ -1,4 +1,4 @@
-# Discovery of Resrources From Active Directory to MECP Console
+# Discovery of Resrources From Active Directory to MECM Console
 
 ## Summary
 

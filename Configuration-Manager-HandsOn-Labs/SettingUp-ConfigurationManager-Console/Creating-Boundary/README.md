@@ -1,4 +1,4 @@
-# Creating Boundary and Boundary Groups in MECP Console
+# Creating Boundary and Boundary Groups in MECM Console
 
 ### Creating a Boundary
 
