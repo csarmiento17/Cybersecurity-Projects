@@ -1,4 +1,4 @@
-# SCCM Installation Guide
+# Microsoft Configuration Manager (SCCM) Installation Guide
 
 ## Summary
 
