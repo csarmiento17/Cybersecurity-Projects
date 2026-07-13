@@ -4,7 +4,7 @@ Control how the Configuration Manager client behaves on managed devices. It allo
 
 ### Create Custom Client Settings
 
-Go to *Administration* > right click *Create Custom Client Device Settings*
+Go to _Administration_ > right click _Create Custom Client Device Settings_
 
 ![ClientSettings1](./images/ClientSettings1.PNG)
 
@@ -14,31 +14,28 @@ Go to *Administration* > right click *Create Custom Client Device Settings*
 
 - Client Policy
 
- Since we have few computers we will change it to a lower polling inverval
+Since we have few computers we will change it to a lower polling inverval
 
 ![ClientSettings3](./images/ClientSettings3.PNG)
 
+- Computer Agent
 
--Computer Agent
-
-Select *Bypass* so it will not look for digital signature and block the execution
+Select _Bypass_ so it will not look for digital signature and block the execution
 
 ![ClientSettings4](./images/ClientSettings4.PNG)
 
--Computer Restart
+- Computer Restart
 
 We're changing to a lower value for testing purposes
 
 ![ClientSettings5](./images/ClientSettings5.PNG)
 
--Hardware Inventory
+- Hardware Inventory
 
 ![ClientSettings6](./images/ClientSettings6.PNG)
 ![ClientSettings7](./images/ClientSettings7.PNG)
 
-
-
--Remote Tools
+- Remote Tools
 
 ![ClientSettings8](./images/ClientSettings8.PNG)
 
@@ -46,27 +43,27 @@ Select the account who has domain admin access
 
 ![ClientSettings9](./images/ClientSettings9.PNG)
 
--Software Center
+- Software Center
 
 ![ClientSettings10](./images/ClientSettings10.PNG)
 
--Software Deployment
+- Software Deployment
 
 ![ClientSettings11](./images/ClientSettings11.PNG)
 
--Software Inventory
+- Software Inventory
 
-Change to *1 Hour* and add .exe, .msi and .xml in *Set Types*
+Change to _1 Hour_ and add .exe, .msi and .xml in _Set Types_
 
 ![ClientSettings12](./images/ClientSettings12.PNG)
 
 ![ClientSettings13](./images/ClientSettings13.PNG)
 
--Software Metering
+- Software Metering
 
 ![ClientSettings14](./images/ClientSettings14.PNG)
 
--Software Updates
+- Software Updates
 
 Sofware update scan schedule: 1 Hour
 Schedule deployment re-evaluation: 1 Hour
@@ -74,19 +71,19 @@ Enable manamgement of the Office 365 Client Agent: Yes
 
 ![ClientSettings15](./images/ClientSettings15.PNG)
 
--State Messaging
+- State Messaging
 
 ![ClientSettings16](./images/ClientSettings16.PNG)
 
--User and Device Affinity
+- User and Device Affinity
 
 ![ClientSettings17](./images/ClientSettings17.PNG)
 
 ### Deploy to Client Machines
 
-Right click the newly created custom client settings and choose *Deploy*
+Right click the newly created custom client settings and choose _Deploy_
 ![ClientSettings18](./images/ClientSettings18.PNG)
 
-Select *All Desktop and Server Clients*
+Select _All Desktop and Server Clients_ and click OK
 
 ![ClientSettings19](./images/ClientSettings19.PNG)
