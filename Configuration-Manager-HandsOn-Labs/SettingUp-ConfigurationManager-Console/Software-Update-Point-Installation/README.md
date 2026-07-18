@@ -31,9 +31,3 @@ Go to Administration > Site Configuration Servers > Site System Roles. Right cli
 ![SoftwareUpdatePoint13](./images/UpdatePoint13.PNG)
 
 ![SoftwareUpdatePoint14](./images/UpdatePoint14.PNG)
-
-![SoftwareUpdatePoint15](./images/UpdatePoint15.PNG)
-
-![SoftwareUpdatePoint16](./images/UpdatePoint16.PNG)
-
-![SoftwareUpdatePoint17](./images/UpdatePoint17.PNG)
